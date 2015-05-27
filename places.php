@@ -89,7 +89,7 @@ function showLibraries(json) {
 		var centralDL = document.createElement('dl');
 		var dt = document.createElement('dt');
 		var dd = document.createElement('dd');
-		var title = document.createTextNode("Central Library - " + entry.title.$t);
+		var title = document.createTextNode("Central Library");
 		dt.appendChild(title);
 		centralDL.appendChild(dt);
 		var content = document.createTextNode(entry.gsx$outletname.$t);
@@ -120,7 +120,7 @@ function showLibraries(json) {
 	if (entry.gsx$outletcode.$t == "BR") {
 		if (printTitle == 0) {
 			var dt = document.createElement('dt');
-			var title = document.createTextNode("Branch Libraries - " + entry.title.$t);
+			var title = document.createTextNode("Branch Libraries");
 			dt.appendChild(title);
 			dl.appendChild(dt);
 			printTitle = 1;
@@ -692,21 +692,21 @@ function displayResults() {
   // Retrieve the JSON feed.
   var script = document.createElement('script');
 
-  script.setAttribute('src', 'http://spreadsheets.google.com/feeds/list/0AjQpFVzYWoqGdHRGYWpmd1FMTnRFaDJXZktqd0dTZ1E/od6/public/values?alt=json-in-script&sq=%22fscs%22%3D%22' + branch + '%22&callback=showLibraries');
+  script.setAttribute('src', 'http://spreadsheets.google.com/feeds/list/0AjQpFVzYWoqGdHRGYWpmd1FMTnRFaDJXZktqd0dTZ1E/od6/public/values?alt=json-in-script&sq=fscs%3D' + branch + '&callback=showLibraries');
   script.setAttribute('id', 'jsonScript');
   script.setAttribute('type', 'text/javascript');
   document.documentElement.firstChild.appendChild(script);
   
   var divFest = document.getElementById('festivals');
   var script2 = document.createElement('script');
-  script2.setAttribute('src', 'http://spreadsheets.google.com/feeds/list/0An2JWOB_ICtOdEEtdUpzSGZNTk5PeU45bElqNGFkOFE/od6/public/values?alt=json-in-script&sq=%22fscs%22%3D%22' + branch + '%22&callback=showFestivals');
+  script2.setAttribute('src', 'http://spreadsheets.google.com/feeds/list/0An2JWOB_ICtOdEEtdUpzSGZNTk5PeU45bElqNGFkOFE/od6/public/values?alt=json-in-script&sq=fscs%3D' + branch + '&callback=showFestivals');
   script2.setAttribute('id', 'jsonScript2');
   script2.setAttribute('type', 'text/javascript');
   divFest.appendChild(script2);
   
   var divPlace = document.getElementById('places');
   var script3 = document.createElement('script');
-  script3.setAttribute('src', 'https://spreadsheets.google.com/feeds/list/0An2JWOB_ICtOdE84YzV1OEc4VUk0MHpXUy1OWVVEUVE/od6/public/values?alt=json-in-script&sq=%22fscs%22%3D%22' + branch + '%22&callback=showPlaces');
+  script3.setAttribute('src', 'https://spreadsheets.google.com/feeds/list/0An2JWOB_ICtOdE84YzV1OEc4VUk0MHpXUy1OWVVEUVE/od6/public/values?alt=json-in-script&sq=fscs%3D' + branch + '&callback=showPlaces');
   script3.setAttribute('id', 'jsonScript3');
   script3.setAttribute('type', 'text/javascript');
   divPlace.appendChild(script3);
