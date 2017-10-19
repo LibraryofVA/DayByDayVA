@@ -71,7 +71,7 @@
         </ul>
         <p class="heading blueText">Healthy Eating</p>
         <ul>
-            <li><a href="http://www.healthbitesva.org/">Healthly Bites</a>                </li>
+            <li><a href="http://www.healthbitesva.org/">Health Bites</a>                </li>
             <li><a href="http://es.nourishinteractive.com/parents_area/overview" target="_blank">Nourish Interactive</a></li>
             <li>
                 <a href="http://kidshealth.org/parent/en_espanol/nutricion/habits_esp.html" target="_blank">Una alimentación saludable</a></li>
