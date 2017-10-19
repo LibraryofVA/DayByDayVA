@@ -1,4 +1,4 @@
-  <div id="bottom_wrap">
+﻿  <div id="bottom_wrap">
 	<div class="moduletable">
 	  <div id="activity_buttons">
         <h2>More Activities:</h2>
@@ -14,7 +14,7 @@
 	</div>
   </div>
   <div class="moduletable_footer_nav">
-    <ul class="menu"><li><a href="/about"><span>About DayByDayVA</span></a></li><li><a href="/additional-resources"><span>Additional Resources</span></a></li><!--<li><a href="/partners-sponsors"><span>Partners &amp; Sponsors</span></a></li><li><a href="/print"><span>Print Version</span></a></li>--><li><a href="/site-map"><span>Site Map</span></a></li></ul>
+    <ul class="menu"><li><a href="/about"><span>About DayByDayVA</span></a></li><li><a href="/additional-resources"><span>Additional Resources</span></a></li><!--<li><a href="/partners-sponsors"><span>Partners &amp; Sponsors</span></a></li><li><a href="/print"><span>Print Version</span></a></li>--><li><a href="/site-map"><span>Site Map</span></a></li><li><a href="http://sp.daybydayva.org"><span>En español</span></a></li></ul>
   </div>
   </div>
 </body>
