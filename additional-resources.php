@@ -45,7 +45,7 @@
         <p>Smart Beginnings  – Virginia Star Quality Initiative<br />
             <a href="http://smartbeginnings.org/Home/StarQualityInitiative/AbouttheVSQI.aspx">http://smartbeginnings.org/Home/StarQualityInitiative/AbouttheVSQI.aspx</a> <br />
           Are you looking  for a preschool or child care program for your child? Many parents have trouble  figuring out what makes a &quot;good&quot; program. The Virginia Star Quality  Initiative (VSQI) can help. The VSQI was created to help parents and caregivers  find high quality child care programs. Just like restaurants or hotels, each  preschool or child care program is given a star rating, from one to five stars.</p>
-        <p class="heading blueText">Select Agencies  and Organziations</p>
+        <p class="heading blueText">Select Agencies  and Organiziations</p>
         <p>Virginia Head  Start Association, Inc.<br />
             <a href="http://www.headstartva.org/index.php">http://www.headstartva.org/index.php</a> <br />
           Head Start is a  national child development program for children from birth to age 5, which  provides services to promote academic, social and emotional development for  income-eligible families.</p>
